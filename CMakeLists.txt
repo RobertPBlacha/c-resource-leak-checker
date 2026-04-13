@@ -89,6 +89,7 @@ add_library(CodeAnalyzer SHARED
   src/ProgramRepresentation/PVAliasSet.cpp
   src/ProgramRepresentation/DisjointPVAliasSets.cpp
   src/ProgramRepresentation/ProgramPoint.cpp
+  src/ProgramRepresentation/ProgramBlock.cpp
   src/ProgramRepresentation/ProgramFunction.cpp
   src/ProgramRepresentation/FullFile.cpp
   src/Debug/BranchLister/LineBranchInfo.cpp
@@ -97,6 +98,7 @@ add_library(CodeAnalyzer SHARED
   src/CalledMethods.cpp
   src/MustCall.cpp
   src/DataflowPass.cpp
+  src/ScopeAnalyzer.cpp
   src/TestRunner.cpp
   src/BranchListerTester.cpp
   src/StructFieldToIndexTester.cpp
